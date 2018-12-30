@@ -5,7 +5,7 @@ using UnityEngine;
 public class SmoothCameraMount : MonoBehaviour {
 
 	[SerializeField] Transform cameraPos;
-	private float _speed = 5f;
+	[SerializeField] float _speed = 3f;
 
 	void Start () {
 		
